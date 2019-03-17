@@ -1,6 +1,8 @@
 #include "apue.h"
 #include <dirent.h>
 
+//ls 实现
+//man 1 ls
 int main(int argc, char *argv[]) {
     DIR  *dp;
     struct dirent *dirp;
